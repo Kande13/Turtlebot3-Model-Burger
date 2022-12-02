@@ -1,0 +1,4 @@
+<launch>
+    <!-- cmd_vel mqtt bridge -->
+    <node name="mqtt_bridge" pkg="ros_mqtt" type="mqtt_teleop.py" output="screen" />
+</launch>

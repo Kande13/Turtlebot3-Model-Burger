@@ -1,0 +1,4 @@
+<launch>
+    <!-- cmd_vel mqtt bridge -->
+    <node name="mqtt_bridge" pkg="ros_mqtt" type="ros_mqtt.py" output="screen" />
+</launch>

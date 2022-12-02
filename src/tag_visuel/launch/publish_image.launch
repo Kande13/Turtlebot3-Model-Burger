@@ -1,0 +1,3 @@
+<launch>
+    <node name="webcam" pkg="tag_visuel" type="publish_image.py" output="screen" respawn="true" />
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/kande/catkin_ws/install
+
+Name: mqtt_client
+Description: Description of mqtt_client
+Version: 1.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmqtt_client /opt/ros/noetic/lib/x86_64-linux-gnu/libpaho-mqttpp3.so.1.2.0
+Requires: message_runtime nodelet roscpp std_msgs topic_tools
