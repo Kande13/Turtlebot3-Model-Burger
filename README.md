@@ -298,7 +298,7 @@ $ roslaunch ros_mqtt ros_mqtt_pub.launch
 ```
 
 # Côté client non ROS
-
+***
 Création un node ros <mqtt_teleop.py> permettant de souscrire à topic MQTT </topic_cmd_vel>
 Pour lancer le node, exercutez cette commande.
 
@@ -309,7 +309,6 @@ $ roslaunch ros_mqtt mqqt_teleop.launch
 
 # Envoi de Goal déterminé par un tag visuel
 ***
-```
 Installation cv_bridge
 ```
 # sudo apt-get install ros-noetic-cv-bridge
@@ -626,6 +625,7 @@ $ roslaunch ros_mqtt ros_mqtt_pub.launch
 ```
 
 # Côté client non ROS
+***
 
 Création un node ros <mqtt_teleop.py> permettant de souscrire à topic MQTT </topic_cmd_vel>
 Pour lancer le node, exercutez cette commande.
@@ -679,6 +679,7 @@ TO DO
 
   
 # Temps passé pour chaque question:
+***
 
 Question 1:
  J'ai fait 4h sans la redaction du fichier readme
