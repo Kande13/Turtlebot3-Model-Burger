@@ -641,6 +641,7 @@ $ roslaunch ros_mqtt mqqt_teleop.launch
 Installation cv_bridge
 ```
 # sudo apt-get install ros-noetic-cv-bridge
+```
 
 Creation un paquet <tag_visuel> et ses dependances de premier ordre
 
