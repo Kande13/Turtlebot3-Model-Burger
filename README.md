@@ -305,7 +305,6 @@ $ roslaunch ros_mqtt mqqt_teleop.launch
 
 # Envoi de Goal déterminé par un tag visuel
 ***
-```
 Installation cv_bridge
 ```
 # sudo apt-get install ros-noetic-cv-bridge
@@ -326,17 +325,6 @@ creation un node ros <read_analyse_send.py> dont le but est de publier un topic 
 ***
 
   creation un node ros <publish_image.py> qui publie un topic /webcam de type <sensor_msgs/Image>
-  Pour verifier son fonctionnement, on peut exercuter les commandes suivantes et sourcrire au node image view de rviz le topic </webcam>
-```
-$ roslaunch tag_visuel publish_image.launch 
-$ rqt_image_view
-```
-
-TO DO
-
-  
-
-pe <sensor_msgs/Image>
   Pour verifier son fonctionnement, on peut exercuter les commandes suivantes et sourcrire au node image view de rviz le topic </webcam>
 ```
 $ roslaunch tag_visuel publish_image.launch 
