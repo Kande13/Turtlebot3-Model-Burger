@@ -301,55 +301,8 @@ Pour lancer le node, exercutez cette commande.
 ```
 $ roslaunch ros_mqtt mqqt_teleop.launch 
 
-```
 
-# Envoi de Goal déterminé par un tag visuel
-***
-Installation cv_bridge
-```
-# sudo apt-get install ros-noetic-cv-bridge
-```
 
-Creation un paquet <tag_visuel> et ses dependances de premier ordre
-
-creation un node ros <read_analyse_send.py> dont le but est de publier un topic /Visualization_april_tag' de type visualization_msgs/Marker
-
- TO DO
-
- # Utilisation des caractéristiques visuelles
- ***
-
- TO DO
-
- # Utilisation d’une capture d’image
-***
-
-  creation un node ros <publish_image.py> qui publie un topic /webcam de type <sensor_msgs/Image>
-  Pour verifier son fonctionnement, on peut exercuter les commandes suivantes et sourcrire au node image view de rviz le topic </webcam>
-```
-$ roslaunch tag_visuel publish_image.launch 
-$ rqt_image_view
-```
-
-TO DO
-
-  
-# Temps passé pour chaque question:
-***
-
-Question 1:
- J'ai fait 4h sans la redaction du fichier readme
- Question 2:
- J'ai fait 2h.
- 
- Question 3:
- J'ai fait 4h.
- 
- Question 4: 
- J'ai fait 1h.
- 
- Question 6:
-  J'ai fait 2h.
 
 
 
